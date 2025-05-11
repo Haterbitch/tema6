@@ -71,9 +71,6 @@ body {
     transition: 0.3s ease-in-out; /* Glidende overgangseffekt */
 }
 
-.hover-image:hover {
-    content: url("billeder/Frame 15.jpg"); /* Billedet skifter ved hover */
-}
 .content {
     padding: 20px;
 }
@@ -88,6 +85,7 @@ body {
     color: #666;
 }
 
+
 .card {
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -95,12 +93,15 @@ body {
     border-radius: 10px;
     background-color: transparent;
     border: none;
+    position: relative; /* Gør det muligt at stable billeder */
+    width: 100%; /* Sørg for, at kortene fylder deres container */
 }
 
 .card img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-radius: 30px;
+
 }
 
 .card-body {
