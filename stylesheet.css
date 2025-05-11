@@ -66,6 +66,14 @@ body {
     background-color: #f9cbc3;
 }
 
+
+.hover-image {
+    transition: 0.3s ease-in-out; /* Glidende overgangseffekt */
+}
+
+.hover-image:hover {
+    content: url("billeder/Frame 15.jpg"); /* Billedet skifter ved hover */
+}
 .content {
     padding: 20px;
 }
@@ -85,6 +93,8 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 10px;
+    background-color: transparent;
+    border: none;
 }
 
 .card img {
@@ -95,6 +105,7 @@ body {
 
 .card-body {
     padding: 15px;
+    background-color: transparent;
 }
 
 .card-title {
