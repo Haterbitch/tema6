@@ -33,6 +33,22 @@ body {
     border: none;
     border-radius: 5px;
 }
+.nav-buttons {
+    display: flex; /* Brug flexbox til at placere knapperne på linje */
+    gap: 10px; /* Lidt luft mellem knapperne */
+    overflow-x: auto; /* Gør indholdet swipebart, hvis der ikke er plads */
+    padding: 10px; /* Tilføj lidt padding for bedre udseende */
+    scrollbar-width: none; /* Skjul scrollbar (valgfrit) */
+}
+
+.nav-buttons::-webkit-scrollbar {
+    display: none; /* Skjul scrollbar i Chrome/Safari (valgfrit) */
+}
+
+.nav-buttons button {
+    flex-shrink: 0; /* Sørg for, at knapperne ikke skrumper */
+    white-space: nowrap; /* Undgå linjeskift i knapteksten */
+}
 
 .nav-buttons .btn:hover {
     background-color: #f9cbc3;
