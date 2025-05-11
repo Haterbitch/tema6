@@ -1,3 +1,120 @@
 body{
-    background-color:palevioletred;
+    background-color:#F2EAD7;
+}
+
+body {
+    font-family:Inter, sans-serif;
+    background-color: #fbf3df;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #F9CBC3;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.header {
+    display: flex; /* Brug flexbox for at placere elementer i én linje */
+    align-items: center; /* Vertikal centrering af logo og tekst */
+    gap: 10px; /* Lidt mellemrum mellem logoet og teksten */
+}
+
+.logo {
+    height: 50px; /* Juster højden på logoet */
+    width: auto; /* Behold billedets proportioner */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.nav-buttons {
+    margin-top: 10px;
+}
+
+.nav-buttons .btn {
+    margin: 5px;
+    background-color: #d2e4c7;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+.nav-buttons {
+    display: flex; /* Brug flexbox til at placere knapperne på linje */
+    gap: 10px; /* Lidt luft mellem knapperne */
+    overflow-x: auto; /* Gør indholdet swipebart, hvis der ikke er plads */
+    padding: 10px; /* Tilføj lidt padding for bedre udseende */
+    scrollbar-width: none; /* Skjul scrollbar (valgfrit) */
+}
+
+.nav-buttons::-webkit-scrollbar {
+    display: none; /* Skjul scrollbar i Chrome/Safari (valgfrit) */
+}
+
+.nav-buttons button {
+    flex-shrink: 0; /* Sørg for, at knapperne ikke skrumper */
+    white-space: nowrap; /* Undgå linjeskift i knapteksten */
+}
+
+.nav-buttons .btn:hover {
+    background-color: #f9cbc3;
+}
+
+
+.hover-image {
+    transition: 0.3s ease-in-out; /* Glidende overgangseffekt */
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.content p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    position: relative; /* Gør det muligt at stable billeder */
+    width: 100%; /* Sørg for, at kortene fylder deres container */
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 30px;
+
+}
+
+.card-body {
+    padding: 15px;
+    background-color: transparent;
+}
+
+.card-title {
+    font-size: 1.25em;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
 }
