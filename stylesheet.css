@@ -10,10 +10,22 @@ body {
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: #F9CBC3;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.header {
+    display: flex; /* Brug flexbox for at placere elementer i én linje */
+    align-items: center; /* Vertikal centrering af logo og tekst */
+    gap: 10px; /* Lidt mellemrum mellem logoet og teksten */
+}
+
+.logo {
+    height: 50px; /* Juster højden på logoet */
+    width: auto; /* Behold billedets proportioner */
 }
 
 .header h1 {
