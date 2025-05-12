@@ -163,14 +163,14 @@ p {
 }
 .Button-nav{
     background: #fddede;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;
-    max-width: 430px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 14px 0;
     border-top: 1px solid #ccc;
     border-radius: 30px;
