@@ -139,9 +139,11 @@ p {
 }
 
 .rating {
-    display: flex; /* Brug flexbox til at arrangere elementerne vandret */
+    display: flex; /* Brug flexbox til at arrangere elementerne på samme linje */
     align-items: center; /* Juster elementerne lodret */
-    gap: 10px; /* Tilføj mellemrum mellem stjernerne og tallet */
+    justify-content: space-between; /* Placer indholdet med plads imellem */
+    gap: 10px; /* Tilføj mellemrum mellem stjerner og tallet */
+    margin-left: 10px;
 }
 
 .stars {
@@ -154,3 +156,9 @@ p {
     color: black; /* Vælg en passende farve til tallet */
 }
 
+.heart-icon {
+    font-size: 20px; /* Juster størrelsen på hjerteikonet */
+    color: red; /* Vælg en rød farve til hjertet */
+    cursor: pointer; /* Gør hjertet klikbart, hvis nødvendigt */
+    margin-left: auto;
+}
