@@ -21,6 +21,13 @@ body {
     display: flex; /* Brug flexbox for at placere elementer i én linje */
     align-items: center; /* Vertikal centrering af logo og tekst */
     gap: 10px; /* Lidt mellemrum mellem logoet og teksten */
+    justify-content: center;
+    a{
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+    }
 }
 
 .logo {
@@ -51,6 +58,10 @@ body {
     overflow-x: auto; /* Gør indholdet swipebart, hvis der ikke er plads */
     padding: 10px; /* Tilføj lidt padding for bedre udseende */
     scrollbar-width: none; /* Skjul scrollbar (valgfrit) */
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
 
 .nav-buttons::-webkit-scrollbar {
