@@ -118,3 +118,22 @@ body {
     font-size: 1em;
     color: #666;
 }
+
+.rating {
+    display: flex; /* Brug flexbox til at skabe en vandret layout */
+    align-items: center; /* Juster elementerne lodret */
+    gap: 10px; /* Tilføj mellemrum mellem tallet og stjernerne */
+}
+
+.rating-number {
+    font-size: 20px; /* Juster størrelsen på tallet */
+    color: black; /* Vælg en passende farve til tallet */
+}
+
+.stars {
+    text-align: left; /* Centrer stjernerne */
+    color: gold; /* Gør stjernerne gule */
+    font-size: 20px; /* Juster størrelsen på stjernerne */
+    margin-top: 10px; /* Tilføj lidt plads over stjernerne */
+}
+
