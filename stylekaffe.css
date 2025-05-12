@@ -68,6 +68,11 @@ body {
     }
 }
 
+.card-link {
+    text-decoration: none; /* Fjerner understregning */
+    color: inherit; /* Beholder tekstfarven */
+}
+
 .nav-buttons::-webkit-scrollbar {
     display: none; /* Skjul scrollbar i Chrome/Safari (valgfrit) */
 }
