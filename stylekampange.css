@@ -161,3 +161,25 @@ p {
     cursor: pointer; /* Gør hjertet klikbart, hvis nødvendigt */
     margin-left: auto;
 }
+.Button-nav{
+    background: #fddede;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 430px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 0;
+    border-top: 1px solid #ccc;
+    border-radius: 30px;
+}
+.bundnav{
+    text-decoration: none;
+    color: black;
+}
+.detaljebillede{
+    width: 100%;
+    border-radius: 30px;
+}
