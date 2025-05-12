@@ -151,7 +151,9 @@ body {
 .søgknap{
     background-color: #D7E8DF;
 }
-.likes{
-    justify-content: space-evenly;
-    align-content: center;
+.likes {
+    display: flex; /* Gør containeren til en flexbox */
+    justify-content: center; /* Centrerer elementerne horisontalt */
+    align-items: center; /* Centrerer elementerne vertikalt */
+    gap: 10px; /* Tilføjer mellemrum mellem elementerne */
 }
