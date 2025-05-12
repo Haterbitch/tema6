@@ -25,8 +25,9 @@ body {
     a{
         display: flex;
         flex-direction: row;
-
         align-items: center;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -39,6 +40,8 @@ body {
     margin: 0;
     font-size: 2em;
     color: #333;
+    text-decoration: none;
+    color: black;
 }
 
 .nav-buttons {
@@ -77,10 +80,6 @@ body {
     background-color: #f9cbc3;
 }
 
-
-.hover-image {
-    transition: 0.3s ease-in-out; /* Glidende overgangseffekt */
-}
 
 .content {
     padding: 20px;
@@ -139,9 +138,11 @@ p {
 }
 
 .rating {
-    display: flex; /* Brug flexbox til at arrangere elementerne vandret */
+    display: flex; /* Brug flexbox til at arrangere elementerne på samme linje */
     align-items: center; /* Juster elementerne lodret */
-    gap: 10px; /* Tilføj mellemrum mellem stjernerne og tallet */
+    justify-content: space-between; /* Placer indholdet med plads imellem */
+    gap: 10px; /* Tilføj mellemrum mellem stjerner og tallet */
+    margin-left: 10px;
 }
 
 .stars {
@@ -154,4 +155,31 @@ p {
     color: black; /* Vælg en passende farve til tallet */
 }
 
-
+.heart-icon {
+    font-size: 20px; /* Juster størrelsen på hjerteikonet */
+    color: red; /* Vælg en rød farve til hjertet */
+    cursor: pointer; /* Gør hjertet klikbart, hvis nødvendigt */
+    margin-left: auto;
+}
+.Button-nav{
+    background: #fddede;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14px 0;
+    border-top: 1px solid #ccc;
+    border-radius: 30px;
+}
+.bundnav{
+    text-decoration: none;
+    color: black;
+}
+.detaljebillede{
+    width: 100%;
+    border-radius: 30px;
+}
