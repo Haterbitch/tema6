@@ -67,10 +67,6 @@ body {
 }
 
 
-.hover-image {
-    transition: 0.3s ease-in-out; /* Glidende overgangseffekt */
-}
-
 .content {
     padding: 20px;
 }
