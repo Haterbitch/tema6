@@ -25,8 +25,9 @@ body {
     a{
         display: flex;
         flex-direction: row;
-
         align-items: center;
+        text-decoration: none;
+        color: black;
     }
 }
 
@@ -39,6 +40,9 @@ body {
     margin: 0;
     font-size: 2em;
     color: #333;
+    text-decoration: none;
+    color: black;
+
 }
 
 .nav-buttons {
