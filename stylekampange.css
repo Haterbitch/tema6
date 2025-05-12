@@ -154,3 +154,15 @@ p {
     color: black; /* Vælg en passende farve til tallet */
 }
 
+.detaljebillede{
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    position: relative; /* Gør det muligt at stable billeder */
+    width: 100%; /* Sørg for, at kortene fylder deres container */
+}
+
+
