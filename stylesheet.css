@@ -134,17 +134,26 @@ body {
     background: #fddede;
     position: sticky;
     bottom: 0;
-    left: 0px;
-    right: 0px;
+    left: 0;
+    right: 0;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    padding: 14px 0;
+    padding: 7px 0;
     border-top: 1px solid #ccc;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .bundnav{
     text-decoration: none;
     color: black;
+}
+.søgknap{
+    background-color: #D7E8DF;
+}
+.likes {
+    display: flex; /* Gør containeren til en flexbox */
+    justify-content: center; /* Centrerer elementerne horisontalt */
+    align-items: center; /* Centrerer elementerne vertikalt */
+    gap: 10px; /* Tilføjer mellemrum mellem elementerne */
 }

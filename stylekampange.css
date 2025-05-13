@@ -171,9 +171,9 @@ p {
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    padding: 14px 0;
+    padding: 7px 0;
     border-top: 1px solid #ccc;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 .bundnav{
     text-decoration: none;
